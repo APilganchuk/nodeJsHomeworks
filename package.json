@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "dev":"nodemon index"
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/APilganchuk/nodeJsHomeworks#readme",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.1.1"
   }
 }
